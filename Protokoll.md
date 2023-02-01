@@ -10,5 +10,8 @@ Wir hatten die Idee entweder ein Radar oder ein Infrarot-Gerät (wovon wir noch 
 24.01 
 
 25.01 
-
+Anschluss LCD
 31.01
+Vollendung Anschluss LCD, LCD funktioniert nicht 
+01.02
+LC Display funktioniert 
