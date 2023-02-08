@@ -20,3 +20,20 @@ Vollendung Anschluss LCD, LCD funktioniert nicht
 
 01.02
 LC Display funktioniert, programmieren der Anzeige von Entfernung zu Objekten
+
+08.02
+neue bauteile da, neu sortierung kabel + umstecken
+
+schaltplan LCD:
+1 e30
+2 d14
+3 b21 
+4 anschluss 0 
+5 e26
+6 anschluss 1
+11 anschluss 6
+12 anschluss 9
+13 anschluss 10
+14 anschluss 11
+15 h14
+16 e23
