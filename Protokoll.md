@@ -46,5 +46,8 @@ probleme mit neuem anschluss des lcds, problemfindung und Lösung (falscher ansc
 | Entfernung | gemessene Entfernung|
 | -------------------------- |-----------|
 | 20 |20|
+| 35 |35|
 | 40 |40|
+| 55 |55|
 | 80 |80|
+
