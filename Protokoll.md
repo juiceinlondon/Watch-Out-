@@ -41,8 +41,8 @@ schaltplan LCD:
 10.02
 probleme mit neuem anschluss des lcds, problemfindung und Lösung (falscher anschluss des 5V- kabels)
 
-###15.02 
-##Test der Messgenauigkeit des Entfernungsmessers
+### 15.02 
+## Test der Messgenauigkeit des Entfernungsmessers
 | Entfernung | gemessene Entfernung|
 | -------------------------- |-----------|
 | 20 |20|
