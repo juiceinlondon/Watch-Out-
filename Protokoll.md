@@ -37,3 +37,6 @@ schaltplan LCD:
 14 anschluss 11
 15 h14
 16 e23
+
+10.02
+probleme mit neuem anschluss des lcds, problemfindung und Lösung (falscher anschluss des 5V- kabels)
