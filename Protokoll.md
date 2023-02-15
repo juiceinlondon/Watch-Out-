@@ -43,3 +43,4 @@ probleme mit neuem anschluss des lcds, problemfindung und Lösung (falscher ansc
 
 15.02 
 test der messgenauigkeit des entfernungsmessers
+20cm Abstand: gem
