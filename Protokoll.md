@@ -22,7 +22,7 @@ Vollendung Anschluss LCD, LCD funktioniert nicht
 LC Display funktioniert, programmieren der Anzeige von Entfernung zu Objekten
 
 08.02
-neue bauteile da, neu sortierung kabel + umstecken
+neue bauteile da, neu sortierung kabel + umstecken 
 
 schaltplan LCD:
 1 e30
@@ -41,6 +41,10 @@ schaltplan LCD:
 10.02
 probleme mit neuem anschluss des lcds, problemfindung und Lösung (falscher anschluss des 5V- kabels)
 
-15.02 
-test der messgenauigkeit des entfernungsmessers
-20cm Abstand: gem
+###15.02 
+##Test der Messgenauigkeit des Entfernungsmessers
+| Entfernung | gemessene Entfernung|
+| -------------------------- |-----------|
+| 20 |20|
+| 40 |40|
+| 80 |80|
