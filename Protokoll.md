@@ -51,3 +51,8 @@ probleme mit neuem anschluss des lcds, problemfindung und Lösung (falscher ansc
 | 55 |55|
 | 80 |80|
 
+22.02 
+Joel und ich krank gewesen
+
+24.02 
+Joel und ich krank gewesen
