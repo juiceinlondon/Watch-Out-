@@ -56,3 +56,6 @@ Joel und ich krank gewesen
 
 24.02 
 Joel und ich krank gewesen
+
+01.03
+Joel krank gewesen, Recherche über Servomotoren für unsere Idee des rotierenden Ultrasonic Sensors
