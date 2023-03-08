@@ -58,4 +58,10 @@ Joel und ich krank gewesen
 Joel und ich krank gewesen
 
 01.03
-Joel krank gewesen, Recherche über Servomotoren für unsere Idee des rotierenden Ultrasonic Sensors
+Joel krank gewesen, Recherche über Servomotoren für unsere Idee des rotierenden Ultrasonic Sensors, Beginn Tinkercad
+
+03.03
+homeschooling Tag, Arbeit an Tinkercad
+
+08.03 
+Joel krank, Integrierung Servomotor
