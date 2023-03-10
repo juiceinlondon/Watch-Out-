@@ -67,4 +67,4 @@ homeschooling Tag, Arbeit an Tinkercad
 Joel krank, Integrierung Servomotor
 
 10.03 
-Joel wieder da, Abgabe auf den Zeitraum vom 05.04 07.04 festgelegt, Servomotor aufgegeben da unsere Schaltung überhitzte, Wiederanschluss LED 
+Joel wieder da, Abgabe auf den Zeitraum vom 05.04 07.04 festgelegt, Servomotor aufgegeben da unsere Schaltung überhitzte, Wiederanschluss LED: blaues Leuchten, wenn Gefahr erkannt wird
