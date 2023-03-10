@@ -65,3 +65,6 @@ homeschooling Tag, Arbeit an Tinkercad
 
 08.03 
 Joel krank, Integrierung Servomotor
+
+10.03 
+Joel wieder da, Abgabe auf den Zeitraum vom 05.04 07.04 festgelegt
