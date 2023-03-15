@@ -42,6 +42,7 @@ schaltplan LCD:
 probleme mit neuem anschluss des lcds, problemfindung und Lösung (falscher anschluss des 5V- kabels)
 
 ### 15.02 
+Heute nahm ich einige Tests unseres Ultrasonic Sensors vor, da dieser zwischenzeitlich unrealistische Werte erzeugte. Um auszuschließen, dass ein technischer Defekt vorliegt, ließ ich ihn einige vorher festgelegte Strecken nachmessen. Dabei entsprach jede Messung der tatsächlichen Entfernung.
 ## Test der Messgenauigkeit des Entfernungsmessers
 | Entfernung | gemessene Entfernung|
 | -------------------------- |-----------|
