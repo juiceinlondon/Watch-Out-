@@ -67,6 +67,7 @@ homeschooling Tag, Arbeit an Tinkercad
 Joel krank, Integrierung Servomotor
 
 10.03 
-Joel wieder da, Abgabe auf den Zeitraum vom 05.04 07.04 festgelegt, Servomotor aufgegeben da unsere Schaltung überhitzte, Wiederanschluss LED: blaues Leuchten, wenn Gefahr erkannt wird, Active Buzzer eingebaut
+In dieser Stunde war Joel wieder da. Zudem legte Herr Buhl die Abgabe des zweiten Projektes auf den Zeitraum vom 05.04.2023 bis 07.04.2023 fest. Anschließend machten wir uns an die Arbeit mit dem Servomotor. Diese mussten wir nach einiger Zeit allerdings abbrechen, da der Servomotor und die angeschlossenen Kabel überhitzten. Außerdem begann das Display, dauerhaft zu flackern. Damit war unsere Idee, ein Radar in unseren Aufabau zu integrieren, verworfen. 
+Zum Ende hin schlossen wir unsere LED wieder an. Hier mussten wir allerdings auf die Farbe blau ausweichen, da grün gar nicht funktioniert und rot nur minimal leuchtet. Folglich leuchtet die blaue Lampe nun auf, wenn eine Gefahr erkannt wird. Schließlich überlegten wir, welches weitere Bauteil wir anstelle des Servomotors einbauen können. Wir haben uns schlussendlich für einen [Active Buzzer(https://www.roboter-bausatz.de/projekte/buzzer-mit-arduino-steuern)] entschieden. Dieser erzeugt ein Audio-Signal, wenn unser Bewegungssensor eine Bewegung registriert.
 
 
