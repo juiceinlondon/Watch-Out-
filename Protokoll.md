@@ -10,7 +10,8 @@ Heute haben wir das erste mal mit dem Arduino gearbeitet. Da uns die erforderlic
 In dieser Stunde konnten wir mit unserem eigentlichen Projekt beginnen, da unsere Bauteile nun vorlagen. Zuerst haben wir einen Motion Sensor eingebaut und programmiert. Dafür schauten wir uns bereits vorhandene Projekte mit einem solchen Sensor an und passten dort verwendete Codes für unsere Zwecke an. Anschließend programmierten wir unsere LED so, dass sie rot aufleuchtet, wenn eine Bewegung registriert wird und grün, wenn nicht.
 
 ## 24.01.2023
-verbindung von motion sensor und entfernungsmesser
+Diese Stunde widmeten wir der Verbindung des Motion Sensors mit unserem Hauptbauteil, dem Entfernungsmesser. Dieser funktioniert über die Aussendung von Ultraschallwellen und dem Messen der Zeit, bis diese zurück zum Ultrasonic Sensors kommen.  In unserem Projekt misst der Ultrasonic Sensor allerdings nur, wenn der Motion Sensor eine Bewegung erkennt. Dieser Aufbau soll ein Überwachungssystem nachahmen 
+
 
 ## 25.01.2023
 Anschluss LCD
