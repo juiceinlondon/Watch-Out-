@@ -1,7 +1,7 @@
 
 ## 11.01.2023
 
-Wir hatten die Idee entweder ein Radar oder ein Infrarot-Gerät (wovon wir noch nicht wissen, was die Funktion sein soll) zu bauen. Dabei haben wir uns ein Sensor-Kit mit 37 verschiedenen Sensoren für den Arduino besorgt, um diesen zu programmieren und auf unser gewünschtes Projekt abzustimmen.
+Für unser neues Projekt haben wir die Idee, entweder ein Radar oder ein Infrarot-Gerät zu erbauen. Das ganze führen wir mit einem Arduino Uno durch. Für die Umsetzung haben wir uns ein ["Sensor-Kit"](https://canadianbestseller.com/pd/elegoo-upgraded-37-in-1-sensor-modules-kit-with-tutorial-compatible-with-arduino-ide-uno-r3-mega-2560-nano/?srsltid=Ad5pg_EMMvM8QcpJP_ORZiaoWmCJ-heHYXiO7B6Qnou4TSnSU7-mMDKm8j4&v=3a52f3c22ed6) mit 37 verschiedenen Sensoren für den Arduino besorgt, um diesen zu programmieren und auf unser gewünschtes Projekt abzustimmen. Dieses Sensor-Kit steht uns allerdings erst in einer Woche zur Verfügung.  
 
 ## 17.01
 erste arbeit mit dem arduino, led programmiert mit morsecode
