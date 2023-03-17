@@ -7,7 +7,7 @@ Diese erste Stunde haben wir für die Ideenfindung genutzt. Von Anfang an stand 
 Heute haben wir das erste mal mit dem Arduino gearbeitet. Da uns die erforderlichen Bauteile allerdings noch nicht vorlagen haben wir uns erst einmal grundlegende Schaltpläne angeschaut und nachgebaut. Dabei nutzten wir ausschließlich eine LED. Diese programmierten wir so, dass sie visuelle Signale in Form von Morsecode ausgeben konnte. Mithilfe einer [Übersetzungsseite](https://morsedecoder.com/de/) ließen wir die LED Sätze wie "Hallo Welt" sagen.  
 
 ## 18.01.2023
-In dieser Stunde konnten wir mit unserem eigentlichen Projekt beginnen, da unsere Bauteile nun vorlagen. Zuerst haben wir einen Motion Sensor eingebaut und programmiert. Dafür schauten wir uns bereits vorhandene Projekte mit einem solchen Sensor an und passten dort verwendete Codes für unsere Zwecke an. 
+In dieser Stunde konnten wir mit unserem eigentlichen Projekt beginnen, da unsere Bauteile nun vorlagen. Zuerst haben wir einen Motion Sensor eingebaut und programmiert. Dafür schauten wir uns bereits vorhandene Projekte mit einem solchen Sensor an und passten dort verwendete Codes für unsere Zwecke an. Anschließend programmierten wir unsere LED so, dass sie rot aufleuchtet, wenn eine Bewegung registriert wird und grün, wenn nicht.
 
 ## 24.01.2023
 verbindung von motion sensor und entfernungsmesser
