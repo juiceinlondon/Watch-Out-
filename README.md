@@ -6,5 +6,5 @@ Dieses Schulprojekt wurde erschaffen von:
 2. Joel Rosenberg  
 
 Unser Stundenprotokoll und die Projektseite sind im Folgenden nachzulesen:
-1. [Protokoll9(
+1. [Protokoll](
 2. [Projektseite](https://github.com/juiceinlondon/Projekt-2/blob/main/Projektseite.md)
