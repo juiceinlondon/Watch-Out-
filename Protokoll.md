@@ -1,7 +1,7 @@
 
 ## 11.01.2023
 
-Diese erste Stunde haben wir für die Ideenfindung genutzt. Von Anfang an stand fest, ein Porjekt im Bereich des Physical Computings durchzuführen. Für unser neues Projekt haben wir die Idee, entweder ein Radar oder ein Infrarot-Gerät zu erbauen. Das ganze führen wir mit einem Arduino Uno durch. Für die Umsetzung haben wir uns ein ["Sensor-Kit"](https://canadianbestseller.com/pd/elegoo-upgraded-37-in-1-sensor-modules-kit-with-tutorial-compatible-with-arduino-ide-uno-r3-mega-2560-nano/?srsltid=Ad5pg_EMMvM8QcpJP_ORZiaoWmCJ-heHYXiO7B6Qnou4TSnSU7-mMDKm8j4&v=3a52f3c22ed6) mit 37 verschiedenen Sensoren für den Arduino besorgt, um diesen zu programmieren und auf unser gewünschtes Projekt abzustimmen. Dieses Sensor-Kit steht uns allerdings erst in einer Woche zur Verfügung.  
+Diese erste Stunde haben wir für die Ideenfindung genutzt. Von Anfang an stand fest, ein Porjekt im Bereich des Physical Computings durchzuführen. Für unser neues Projekt haben wir die Idee, entweder ein Radar oder ein Infrarot-Gerät zu erbauen, welches für die Entfernungsmessung zuständig sein soll. Das Ganze führen wir mit einem Arduino Uno durch. Für die Umsetzung haben wir uns ein ["Sensor-Kit"](https://canadianbestseller.com/pd/elegoo-upgraded-37-in-1-sensor-modules-kit-with-tutorial-compatible-with-arduino-ide-uno-r3-mega-2560-nano/?srsltid=Ad5pg_EMMvM8QcpJP_ORZiaoWmCJ-heHYXiO7B6Qnou4TSnSU7-mMDKm8j4&v=3a52f3c22ed6) mit 37 verschiedenen Sensoren für den Arduino besorgt, um diesen zu programmieren und auf unser gewünschtes Projekt abzustimmen. Dieses Sensor-Kit steht uns allerdings erst in einer Woche zur Verfügung.  
 
 ## 17.01.2023
 Heute haben wir das erste mal mit dem Arduino gearbeitet. Da uns die erforderlichen Bauteile allerdings noch nicht vorlagen haben wir uns erst einmal grundlegende Schaltpläne angeschaut und nachgebaut. Dabei nutzten wir ausschließlich eine LED. Diese programmierten wir so, dass sie visuelle Signale in Form von Morsecode ausgeben konnte. Mithilfe einer [Übersetzungsseite](https://morsedecoder.com/de/), ließen wir die LED Sätze wie "Hallo Welt" sagen.  
@@ -10,11 +10,11 @@ Heute haben wir das erste mal mit dem Arduino gearbeitet. Da uns die erforderlic
 In dieser Stunde konnten wir mit unserem eigentlichen Projekt beginnen, da unsere Bauteile nun vorlagen. Zuerst haben wir einen Motion Sensor eingebaut und programmiert. Dafür schauten wir uns bereits vorhandene Projekte mit einem solchen Sensor an und passten dort verwendete Codes für unsere Zwecke an. Anschließend programmierten wir unsere LED so, dass sie rot aufleuchtet, wenn eine Bewegung registriert wird und grün, wenn nicht.
 
 ## 24.01.2023
-Diese Stunde widmeten wir der Verbindung des Motion Sensors mit unserem Hauptbauteil, dem Entfernungsmesser. Dieser funktioniert über die Aussendung von Ultraschallwellen und dem Messen der Zeit, bis diese zurück zum Ultrasonic Sensors kommen.  In unserem Projekt misst der Ultrasonic Sensor allerdings nur, wenn der Motion Sensor eine Bewegung erkennt. Dieser Aufbau soll ein Überwachungssystem nachahmen 
+Diese Stunde widmeten wir der Verbindung des Motion Sensors mit unserem Hauptbauteil, dem Entfernungsmesser. Dieser funktioniert über die Aussendung von Ultraschallwellen und dem Messen der Zeit, bis diese zurück zum Ultrasonic Sensor kommen. In unserem Projekt misst der Ultrasonic Sensor allerdings nur, wenn der Motion Sensor eine Bewegung erkennt. Dieser Aufbau soll ein Überwachungssystem nachahmen, welches sich erst aktiviert, wenn eine Bewegung wahrgenommen wird. Andernfalls befindet sich der Rest des Systems im "Ruhemodus" bzw. ist nicht aktiviert. 
 
 
 ## 25.01.2023
-Anschluss LCD
+Heute begannen wir damit, unser [Liquid Crystal Display](https://funduino.de/nr-13-lcd-display) (LCD) anzuschließen.
 
 ## 31.01.2023
 Vollendung Anschluss LCD, LCD funktioniert nicht 
@@ -39,7 +39,7 @@ schaltplan LCD:
 15 h14
 16 e23
 
-##10.02.2023
+## 10.02.2023
 probleme mit neuem anschluss des lcds, problemfindung und Lösung (falscher anschluss des 5V- kabels)
 
 ## 15.02.2023
