@@ -7,4 +7,4 @@ Dieses Schulprojekt wurde erschaffen von:
 
 Unser Stundenprotokoll und die Projektseite sind im Folgenden nachzulesen:
 1. [Protokoll9(
-2. [Projektseite]
+2. [Projektseite](https://github.com/juiceinlondon/Projekt-2/blob/main/Projektseite.md)
