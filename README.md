@@ -6,6 +6,5 @@ Dieses Schulprojekt wurde erschaffen von:
 2. Joel Rosenberg  
 
 Unser Stundenprotokoll und die Projektseite sind im Folgenden nachzulesen:
-
-Protokoll
-Projektseite
+1. Protokoll
+2. Projektseite
