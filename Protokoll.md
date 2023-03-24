@@ -19,13 +19,14 @@ Zudem bestellten wir am Nachmittag neue Bauteile. Zum einen kauften wir neue Ste
 
 
 ## 31.01.2023
-Vollendung Anschluss LCD, LCD funktioniert nicht 
+Nachdem wir in der letzten Stunde mit dem Anschluss des LCDs begannen, vollendeten wir dies heute zunächst. Anschließend erstellten wir einen separaten Sketch, um zu testen, ob das Display funktioniert. Wie sonst auch sollte das Display den Satz "Hello World!" anzeigen. Dies funktionierte einwandfrei. Als wir das Display anschießend in unseren Haupt-Sketch integrierten, funktionierte das LCD nicht mehr. Es zeigte lediglich Zeichen an, welche nicht als Buchstaben oder Zahlen zu erkennen waren. Um die Ursache des Problems zu finden, überprüften wir alle Kabel, welche mit dem LCD in Verbindung standen. Dieser Versuch führte allerdings nicht zur Problemlösung.  
 
 ## 01.02.2023
-LC Display funktioniert, programmieren der Anzeige von Entfernung zu Objekten
+In dieser Stunde waren wir dazu in der Lage, das Problem aus der letzten Stunde zu lösen. Wir schafften es dadurch, dass wir das LCD an unseren bereits vorhandenen Stromkreis anschlossen. In der letzten Stunde gaben wir ihm nämlich einen eigenen 5V-Anschluss und einen eigenen GND-Anschluss. Durch diese Neuverkabelung verschwanden die Zeichen.  
+Da das Problem nun aus der Welt geschafft war, programmierten wir anschließend das Display. Zum einen programmierten wir die Ausgabe von der gemessenen Entfernung zu Objekten. Wird eine Bewegung registriert, dann zeigt das Display in der oberen Reihe "Abstand:" an und in der Reihe darunter die gemessene Entfernung. Hinter der Entfernung steht zudem die Einheit Zentimeter. An dieser Stelle half uns Herr Buhl kurzzeitig, da wir nicht wussten wie es möglich ist, die Einheit hinter der Zahl anzeigen zu lassen. Folglich zeigte er uns eine Lösungsmöglichkeit.
 
 ## 08.02.2023
-neue bauteile da, neu sortierung kabel + umstecken 
+Heute hatten wir unsere neuen, bestellten Bauteile zur Verfügung. Da wir aufgrund unser vielen Geräte eine große Anzahl an Kabeln verbauen mussten, enstand auf unsere bisherigen Steckplatte ein großes Durcheinander. Deshalb begannen wir damit, jedes Gerät auf eine eigene neue Steckplatte zu bauen. Somit ist es möglich eine größere Ordung zu erzeugen und die verschiedenen Kabel zu sortieren und zu trennen. Um unseren Fortschritt nicht zu verlieren, fotografierten wird unsere Schaltung zum Zeitpunkt vor dem Umstecken. Anschließend nutzten wir diese Fotos um die Anschlüsse wieder richtig aufzubauen.
 
 schaltplan LCD:
 1 e30
@@ -42,7 +43,7 @@ schaltplan LCD:
 16 e23
 
 ## 10.02.2023
-probleme mit neuem anschluss des lcds, problemfindung und Lösung (falscher anschluss des 5V- kabels)
+In dieser Stunde bemerkten wir, dass das LCD erneut ein Problem hat. Dieses musste durch das Umstecken in der letzten Stunde entstanden sein. Also begannen wir damit, jedes einzelne Kabel mithilfe unserer gemachten Fotos zu kontrollieren. Jedoch war jedes Kabel von jedem Gerät an der selben Position wie vorher. Wir schauten deshalb erneut auf die Seite, auf der wir vor 3 Wochen den Steckplan der LCD fanden. Auf diesem Plan verfügt die LCD über einen dritten 5V-Anschluss. Diesen haben wir jedoch nie benötigt, da hier ein weiteres Gerät vor das Display geschalten war und deshalb von Anfang an nicht eingebaut. Allerdings war er nach dem Umstecken bei uns trotzdem vorhanden. Diesen Einbau des falschen Kabels führten wir darauf zurück, dass wir in der letzten Stunde, während des Umsteckens, ebenfalls auf diese Seite zurückgreifen mussten, da einige Anschlüsse des LCDs von Kabeln verdeckt waren. Nachdem wir diesen 5V-Anschluss entfernten, funktionierte das Display wieder richtig.    problemfindung und Lösung (falscher anschluss des 5V- kabels)
 
 ## 15.02.2023
 Heute nahm ich einige Tests unseres Ultrasonic Sensors vor, da dieser zwischenzeitlich unrealistische Werte erzeugte. Um auszuschließen, dass ein technischer Defekt vorliegt, ließ ich ihn einige vorher festgelegte Strecken nachmessen. Dabei entsprach jede Messung der tatsächlichen Entfernung.
