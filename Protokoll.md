@@ -14,7 +14,9 @@ Diese Stunde widmeten wir der Verbindung des Motion Sensors mit unserem Hauptbau
 
 
 ## 25.01.2023
-Heute begannen wir damit, unser [Liquid Crystal Display](https://funduino.de/nr-13-lcd-display) (LCD) anzuschließen.
+Heute begannen wir damit, unser [Liquid Crystal Display](https://funduino.de/nr-13-lcd-display) (LCD) anzuschließen. Dieses soll die aufgenommenen Informationen über die Umgebung in Textform ausgeben. Dazu soll die Entfernung zu einem Objekt als Warnmeldung dargestellt werden. Wird hingegen keine Bewegung erkannt, dann soll eine Art Entwarnung ausgesprochen werden.  
+Zudem bestellten wir am Nachmittag neue Bauteile. Zum einen kauften wir neue Steckplatten, um die Menge unserer Komponenten gut organisieren zu können und nicht auf Teile aus der Schule angewiesen zu sein. Zum anderen bestellten wir zwei Lithium-Ionen-Akkus und eine dazugehörige Akkubox. Wir kauften diese, da wir unseren Aufbau nicht an den PC binden wollen. Durch unsere Akkus ist unsere Warnsysystem mobil und kann überall eingesetzt und angeschaltet werden.
+
 
 ## 31.01.2023
 Vollendung Anschluss LCD, LCD funktioniert nicht 
