@@ -1,5 +1,10 @@
-# Projekt-2
+# Projekt Nr.2  
+## Information  
 
-11.01.2023
+Dieses Schulprojekt wurde erschaffen von:  
 
-Wir hatten die Idee entweder ein Radar oder ein Infrarot-Gerät (wovon wir noch nicht wissen, was die Funktion sein soll) zu bauen. Dabei haben wir uns ein Sensor-Kit mit 37 verschiedenen Sensoren für den Arduino besorgt, um diesen zu programmieren und auf unser gewünschtes Projekt abzustimmen.
+Lasse Prühs und Joel Rosenberg  
+Unser Stundenprotokoll und die Projektseite sind im Folgenden nachzulesen:
+
+Protokoll
+Projektseite
