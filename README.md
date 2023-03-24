@@ -3,7 +3,8 @@
 
 Dieses Schulprojekt wurde erschaffen von:  
 
-Lasse Prühs und Joel Rosenberg  
+1. Lasse Prühs
+2. Joel Rosenberg  
 
 Unser Stundenprotokoll und die Projektseite sind im Folgenden nachzulesen:
 
