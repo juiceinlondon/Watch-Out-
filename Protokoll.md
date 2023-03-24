@@ -49,7 +49,7 @@ Im folgenden Bild ist der falsche Anschluss, mit grüner Farbe umrandet, dargest
 
 
 ## 15.02.2023
-Heute nahm ich einige Tests unseres Ultrasonic Sensors vor, da dieser zwischenzeitlich unrealistische Werte erzeugte. Um auszuschließen, dass ein technischer Defekt vorliegt, ließ ich ihn einige vorher festgelegte Strecken nachmessen. Dabei entsprach jede Messung der tatsächlichen Entfernung.
+Heute war Joel krank. Da wir in den letzten Stunden immer wieder unrealistische Entfernung von dem Ultrasonic Sensor angezeigt bekommen haben, nahm ich einige Tests unseres Sensors vor. Um auszuschließen, dass ein technischer Defekt vorliegt, ließ ich ihn einige vorher festgelegte Strecken nachmessen. Dabei entsprach jede Messung der tatsächlichen Entfernung. Die falschen Entfernungen sind darauf zurückzuführen, dass der Sensor Ultraschallwellen aussendet, welche über längere Zeit durch den Raum reflektiert werden, und somit länger brauchen, um den Sensor wieder zu erreichen.
 ### Test der Messgenauigkeit des Entfernungsmessers
 | Entfernung | gemessene Entfernung|
 | -------------------------- |-----------|
