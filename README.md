@@ -2,7 +2,6 @@
 ## Information  
 
 Dieses Schulprojekt wurde erschaffen von:  
-
 1. Lasse Prühs
 2. Joel Rosenberg  
 
