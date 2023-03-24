@@ -1,4 +1,4 @@
-# Projekt Nr.2  
+# Projekt "Watch Out!"
 ## Information  
 
 Dieses Schulprojekt wurde erschaffen von:  
