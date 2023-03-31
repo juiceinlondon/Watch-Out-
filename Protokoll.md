@@ -81,3 +81,10 @@ Zum Ende hin schlossen wir unsere LED wieder an. Hier mussten wir allerdings auf
 
 ## 15.03.2023
 Leider war Joel heute erneut krank. Da wir mit unserem Aufbau weitesgehend fertig sind, habe ich heute unsere Stundenprotokolle überabeitet und mit Bildern unterlegt.
+
+## 17.03.2023
+
+## 24.03.2023
+
+## 31.03.2023
+
