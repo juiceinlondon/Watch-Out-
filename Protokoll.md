@@ -91,5 +91,5 @@ Zum Anfang dieser Stunde wollten wir unsere Grundidee aus der letzten Stunde wei
 Den Rest der Stunde haben wir an Github weiter gearbeitet.
 
 ## 31.03.2023
-Heute waren die letzten Informatikstunden für dieses Halbjahr. Deshalb haben wir heute unseren Sketch noch einmal getestet. Zudem haben wir unseren nun finalen Aufbau digital in Tinkercad nachgebaut. Im folgenden Screenshot ist unser Endprodukt zu sehen.
+Heute waren die letzten Informatikstunden für dieses Halbjahr. Deshalb haben wir heute unseren Sketch noch einmal getestet. Dabei ist uns leider die Batteriebox durchgebrannt. Nachdem wir eine Batterie eingesetzt haben hat sich an der Unterseite der Box direkt eine Stichflamme gebildet. Sofort haben wir die Batterie entfernt und die Flamme gelöscht. Am Sketch selbst traten keine Fehler auf, sodass wir ihn in den Gruppenordner auf Iserv hochladen konnten. Zudem haben wir unseren nun finalen Aufbau digital in Tinkercad nachgebaut. Im folgenden Screenshot ist unser Endprodukt zu sehen.
 ![Glorious Borwo-Duup](https://user-images.githubusercontent.com/111385267/229095857-246795b1-63eb-4af6-a477-c1b4e36be633.png)
