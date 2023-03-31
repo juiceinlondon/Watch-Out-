@@ -76,15 +76,20 @@ Diese Doppelstunde fand im Homeschooling statt. Um meine Arbeit an Tinkercad zu 
 Joel war heute erneut krank. Nachdem wir uns am Wochende über Servomotoren abgesprochen haben, begann ich heute damit, unseren Servomotor einzubauen. Dazu erstellte ich einen separaten Sketch, um ihn erst einmal zu testen. Da es an diesem Tag an einigen Computern Probleme mit dem Upload auf den Arduino gab, konnte ich das Testprogramm leider nicht weiter testen. 
 
 ## 10.03.2023 
-In dieser Stunde war Joel wieder da. Zudem legte Herr Buhl die Abgabe des zweiten Projektes auf den Zeitraum vom 05.04.2023 bis 07.04.2023 fest. Anschließend machten wir uns an die Arbeit mit dem Servomotor. Diese mussten wir nach einiger Zeit allerdings abbrechen, da der Servomotor und die angeschlossenen Kabel überhitzten. Außerdem begann das Display, dauerhaft zu flackern. Damit war unsere Idee, ein Radar in unseren Aufabau zu integrieren, verworfen.  
+In dieser Stunde war Joel wieder da. Zudem legte Herr Buhl die Abgabe des zweiten Projektes auf den Zeitraum vom 05.04.2023 bis 08.04.2023 fest. Anschließend machten wir uns an die Arbeit mit dem Servomotor. Diese mussten wir nach einiger Zeit allerdings abbrechen, da der Servomotor und die angeschlossenen Kabel überhitzten. Außerdem begann das Display, dauerhaft zu flackern. Damit war unsere Idee, ein Radar in unseren Aufabau zu integrieren, verworfen.  
 Zum Ende hin schlossen wir unsere LED wieder an. Hier mussten wir allerdings auf die Farbe blau ausweichen, da grün gar nicht funktioniert und rot nur minimal leuchtet. Folglich leuchtet die blaue Lampe nun auf, wenn eine Gefahr erkannt wird. Schließlich überlegten wir, welches weitere Bauteil wir anstelle des Servomotors einbauen können. Wir haben uns schlussendlich für einen [Active Buzzer](https://www.roboter-bausatz.de/projekte/buzzer-mit-arduino-steuern) entschieden. Dieser erzeugt ein Audio-Signal, wenn unser Bewegungssensor eine Bewegung registriert. So nimmt der Benutzer die Information über eine sich nähernde Bewegung über drei verschiedene Ausgabegeräte war: in Schriftform über das LCD, in Farbform über die LED und akustisch über den Active Buzzer.
 
 ## 15.03.2023
-Leider war Joel heute erneut krank. Da wir mit unserem Aufbau weitesgehend fertig sind, habe ich heute unsere Stundenprotokolle überabeitet und mit Bildern unterlegt.
+Leider war Joel heute erneut krank. Da wir mit unserem Aufbau weitesgehend fertig sind, habe ich heute unsere Stundenprotokolle überabeitet und mit Links unterlegt.
 
 ## 17.03.2023
+Heute haben wir überlegt, ob wir unseren Aufbau noch durch weitere Geräte ergänzen können. Dazu probierten wir zunächst unseren [Passive Buzzer](https://funduinoshop.com/bauelemente/passive-bauelemente/buzzer-und-lautsprecher/passiver-lautsprecher-passive-buzzer-5v) aus. Da die Audioqualität von diesem Gerät allerdings nicht sehr gut war, behielten wir den Active Buzzer.  
+Danach hatten wir die Idee, ein [Membrane Keypad](https://randomnerdtutorials.com/arduino-membrane-keypad-tutorial/) einzubauen. Gibt der Benutzer hier einen bestimmten Code ein, dann soll sich unser Aufbau aktivieren. Leider hatten wir nicht mehr genügend freie Anschlüsse auf dem Arduino, welche für den Betrieb nötig sind. Folglich verwarfen wir auch diese Idee.
 
 ## 24.03.2023
+Zum Anfang dieser Stunde wollten wir unsere Grundidee aus der letzten Stunde weiterführen. Statt einem Keypad wollten wir einen Schalter einbauen. Wird dieser umgelegt, dann aktiviert sich der Motion Sensor. Hier trat allerdings das Problem auf, dass der Schalter bei der Deaktivierung lediglich das Display aktivierte und bei Aktivierung deaktivierte.  
+Den Rest der Stunde haben wir an Github weiter gearbeitet.
 
 ## 31.03.2023
-
+Heute waren die letzten Informatikstunden für dieses Halbjahr. Deshalb haben wir heute unseren Sketch noch einmal getestet. Zudem haben wir unseren nun finalen Aufbau digital in Tinkercad nachgebaut. Im folgenden Screenshot ist unser Endprodukt zu sehen.
+![Glorious Borwo-Duup](https://user-images.githubusercontent.com/111385267/229095857-246795b1-63eb-4af6-a477-c1b4e36be633.png)
