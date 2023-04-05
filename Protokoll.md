@@ -87,7 +87,7 @@ Heute haben wir überlegt, ob wir unseren Aufbau noch durch weitere Geräte erg�
 Danach hatten wir die Idee, ein [Membrane Keypad](https://randomnerdtutorials.com/arduino-membrane-keypad-tutorial/) einzubauen. Gibt der Benutzer hier einen bestimmten Code ein, dann soll sich unser Aufbau aktivieren. Leider hatten wir nicht mehr genügend freie Anschlüsse auf dem Arduino, welche für den Betrieb nötig sind. Folglich verwarfen wir auch diese Idee.
 
 ## 24.03.2023
-Zum Anfang dieser Stunde wollten wir unsere Grundidee aus der letzten Stunde weiterführen. Statt einem Keypad wollten wir einen Schalter einbauen. Wird dieser umgelegt, dann aktiviert sich der Motion Sensor. Hier trat allerdings das Problem auf, dass der Schalter bei der Deaktivierung lediglich das Display aktivierte und bei Aktivierung deaktivierte.  
+Zum Anfang dieser Stunde wollten wir unsere Grundidee aus der letzten Stunde weiterführen. Statt einem Keypad wollten wir einen Schalter einbauen. Wird dieser umgelegt, dann aktiviert sich der Motion Sensor. Hier trat allerdings das Problem auf, dass der Schalter bei der Deaktivierung lediglich das Display aktivierte und bei Aktivierung deaktivierte. Da wird nach längerem Probieren keine Lösung fanden und unseren gut funktionierenden Sketch nicht durcheinander bringen wollten, ließen wir auch von dieser Idee ab.
 Den Rest der Stunde haben wir an Github weiter gearbeitet.
 
 ## 31.03.2023
