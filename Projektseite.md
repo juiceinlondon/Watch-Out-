@@ -14,7 +14,7 @@ Zeitraum: 01.2023-04.2023
 2. [Das Projekt](https://github.com/juiceinlondon/Projekt-2/blob/main/Projektseite.md#das-projekt)  
    - [Was ist "Watch Out!"?](https://github.com/juiceinlondon/Projekt-2/blob/main/Projektseite.md#was-ist-watch-out)  
    - [Bestandteile des Projektes](https://github.com/juiceinlondon/Projekt-2/blob/main/Projektseite.md#bestandteile-des-projektes)  
-3. [Eigene abschließende Bewertung]()   
+3. [Eigene abschließende Bewertung](https://github.com/juiceinlondon/Projekt-2/blob/main/Projektseite.md#eigene-abschlie%C3%9Fende-bewertung)  
 
 ## Der Beginn  
 
