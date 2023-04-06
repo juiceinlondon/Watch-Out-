@@ -11,7 +11,7 @@ Zeitraum: 01.2023-04.2023
    - [Unsere bisherigen Erfahrungen im Physical Computing](https://github.com/juiceinlondon/Projekt-2/blob/main/Projektseite.md#unsere-bisherigen-erfahrungen-im-physical-computing)  
    - [Die Ideenfindung](https://github.com/juiceinlondon/Projekt-2/blob/main/Projektseite.md#die-ideenfindung)   
    - [Benutzte Programme und Programmiersprachen](https://github.com/juiceinlondon/Projekt-2/blob/main/Projektseite.md#benutzte-programme-und-programmiersprachen)  
-2. [Das Projekt]()  
+2. [Das Projekt](https://github.com/juiceinlondon/Projekt-2/blob/main/Projektseite.md#das-projekt)  
    - [Was ist "Watch Out!"?]()  
    - [Bestandteile des Projektes]()  
 3. [Eigene abschließende Bewertung]()   
