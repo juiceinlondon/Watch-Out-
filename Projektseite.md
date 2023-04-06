@@ -6,15 +6,15 @@ Lehrer: Herr Buhl
 Zeitraum: 01.2023-04.2023  
 
 ## Inhaltsverzeichnis
-1. [Der Beginn]
-   - [Die Teammitglieder]
-   - [Unsere bisherigen Erfahrungen im Physical Computing](https://github.com/juiceinlondon/Projekt-2/main/Projektseite.md#unsere-bisherigen-erfahrungen-im-physical-computing)  
-   - [Die Ideenfindung](https://github.com/juiceinlondon/Projekt-2/main/Projektseite.md#die-ideenfindung)  
-   - [Benutzte Programme und Programmiersprachen](https://github.com/juiceinlondon/Projekt-2/main/Projektseite.md#benutzte-programme-und-programmiersprachen)   
-2. [Das Projekt](https://github.com/juiceinlondon/Projekt-2/main/Projektseite.md#das-projekt)   
-   - [Was ist "Watch Out!"?](https://github.com/juiceinlondon/Projekt-2/main/Projektseite.md#was-ist-watch-out)  
-   - [Bestandteile des Projektes](https://github.com/juiceinlondon/Projekt-2/main/Projektseite.md#bestandteile-des-projektes)  
-3. [Eigene abschließende Bewertung](https://github.com/juiceinlondon/Projekt-2/main/Projektseite.md#eigene-abschlie%C3%9Fende-bewertung)  
+1. [Der Beginn]()  
+   - [Die Teammitglieder]()  
+   - [Unsere bisherigen Erfahrungen im Physical Computing]()  
+   - [Die Ideenfindung]()  
+   - [Benutzte Programme und Programmiersprachen]()  
+2. [Das Projekt]()  
+   - [Was ist "Watch Out!"?]()  
+   - [Bestandteile des Projektes]()  
+3. [Eigene abschließende Bewertung]()   
 
 ## Der Beginn  
 
