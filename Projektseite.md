@@ -6,8 +6,8 @@ Lehrer: Herr Buhl
 Zeitraum: 01.2023-04.2023  
 
 ## Inhaltsverzeichnis
-1. [Der Beginn](https://github.com/juiceinlondon/Projekt-2/blob/Projektseite.md#der-beginn)   
-   - [Die Teammitglieder](https://github.com/juiceinlondon/Projekt-2/edit/Projektseite.md#die-teammitglieder)  
+1. [Der Beginn]
+   - [Die Teammitglieder]
    - [Unsere bisherigen Erfahrungen im Physical Computing](https://github.com/juiceinlondon/Projekt-2/main/Projektseite.md#unsere-bisherigen-erfahrungen-im-physical-computing)  
    - [Die Ideenfindung](https://github.com/juiceinlondon/Projekt-2/main/Projektseite.md#die-ideenfindung)  
    - [Benutzte Programme und Programmiersprachen](https://github.com/juiceinlondon/Projekt-2/main/Projektseite.md#benutzte-programme-und-programmiersprachen)   
