@@ -19,8 +19,10 @@ Zeitraum: 01.2023-04.2023
 ## Der Beginn  
 
 ### Die Teammitglieder  
+Auch für dieses Projekt haben wir, Joel Rosenberg und Lasse Prühs, erneut zusammengearbeitet. Unsere Partnerarbeit im letzten Halbjahr hat so gut funktioniert, dass einer erneuten Zusammenarbeit nichts im Weg stand.  
 
 ### Unsere bisherigen Erfahrungen im Physical Computing  
+Wie bereits im letzten Projektbericht erwähnt, waren unsere Erfahrungen im Physical Computing zu Anfang eher begrenzt. Joel hatte in dem Bereich noch keine Erfahrungen und Lasse bisher nur LED-Lichtmuster programmiert. Folglich mussten wir uns, wie viele andere des Kurses auch, dieses Themenfeld erst einmal selbst erschließen.
 
 ### Die Ideenfindung  
 
