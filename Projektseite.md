@@ -12,8 +12,25 @@ Zeitraum: 01.2023-04.2023
    - [Die Ideenfindung]  
    - [Benutzte Programme und Programmiersprachen]  
 2. [Das Projekt]  
-   - [Was ist "Watch Out!"]  
+   - [Was ist "Watch Out!"?]  
    - [Bestandteile des Projektes]  
 3. [Eigene abschließende Bewertung]  
 
+## Der Beginn  
+
+### Die Teammitglieder  
+
+### Unsere bisherigen Erfahrungen im Physical Computing  
+
+### Die Ideenfindung  
+
+### Benutzte Programme und Programmiersprachen  
+
+## Das Projekt  
+
+### Was ist "Watch Out!"?  
+
+### Bestandteile des Projektes
+
+## Eigene abschließende Bewertung 
 
