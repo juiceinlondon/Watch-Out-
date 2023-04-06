@@ -28,7 +28,8 @@ Wie bereits im letzten Projektbericht erwähnt, waren unsere Erfahrungen im Phys
 Als Inspiration für das Projekt "Watch Out!" nahmen wir auch dieses Mal wieder ein Spiel, welches wir beide oft gemeinsam in unserer Freizeit spielen. In diesem Spiel gibt es verschiedene Gadgets, welche dem Spieler zur Verfügung stehen. Eines davon ist der "Herzschlagsensor". Dieser erkennt den Herzschlag anderer Spieler in der Nähe und gibt die Richtung, sowie die Entfernung zu diesem an. Dieses Gadget konnten wir aufgrund unserer technischen Möglichkeiten leider nicht nachbauen. Deshalb entschieden wir uns dafür, ein Gerät zu programmieren, welches bewegte Objekte in der Nähe erkennt und anschließend die Entfernung misst. Außerdem wollten wir ein Display so programmieren, dass dort die gemessene Entfernung angezeigt werden soll.  
 
 ### Benutzte Programme und Programmiersprachen  
-Das Programm, welches wir in den drei Monaten benutzt haben, war [Arduino IDE](https://downloads.arduino.cc/arduino-ide/arduino-ide_2.0.4_Windows_64bit.exe), da nur damit der Arduino programmiert werden kann. Außerdem verwendeten wir [Tinkercad](https://www.tinkercad.com/), um unseren Aufbau digital nachzubauen.
+Das Programm, welches wir in den drei Monaten benutzt haben, war [Arduino IDE](https://downloads.arduino.cc/arduino-ide/arduino-ide_2.0.4_Windows_64bit.exe), da nur damit der Arduino programmiert werden kann. Die für den Arduino verwendete Programmiersprache ist C/C++, welche weit verbreitet ist.
+Außerdem verwendeten wir [Tinkercad](https://www.tinkercad.com/), um unseren Aufbau digital nachzubauen.
 
 
 ## Das Projekt  
