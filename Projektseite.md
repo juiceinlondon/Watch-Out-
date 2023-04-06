@@ -29,6 +29,8 @@ Als Inspiration für das Projekt "Watch Out!" nahmen wir auch dieses Mal wieder 
 Am Ende der Bearbeitungszeit soll unser Projekt also als eine Art Überwachungssystem dienen, weshabl wir ihm auch den Namen "Watch Out!" gaben.
 
 ### Benutzte Programme und Programmiersprachen  
+Das Programm, welches wir in den drei Monaten benutzt haben, war [Arduino IDE] (https://downloads.arduino.cc/arduino-ide/arduino-ide_2.0.4_Windows_64bit.exe), da nur damit der Arduino programmiert werden kann. Außerdem verwendeten wir [Tinkercad](https://www.tinkercad.com/), um unseren Aufbau digital nachzubauen.
+
 
 ## Das Projekt  
 
