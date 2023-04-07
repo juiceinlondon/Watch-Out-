@@ -22,7 +22,7 @@ Zeitraum: 01.2023-04.2023
 Auch für dieses Projekt haben wir, Joel Rosenberg und Lasse Prühs, erneut zusammengearbeitet. Unsere Partnerarbeit im letzten Halbjahr hat so gut funktioniert, dass einer erneuten Zusammenarbeit nichts im Weg stand.  
 
 ### Unsere bisherigen Erfahrungen im Physical Computing  
-Wie bereits im letzten Projektbericht erwähnt, waren unsere Erfahrungen im Physical Computing zu Anfang eher begrenzt. Joel hatte in dem Bereich noch keine Erfahrungen und Lasse bisher nur LED-Lichtmuster programmiert. Folglich mussten wir uns, wie viele andere des Kurses auch, dieses Themenfeld erst einmal selbst erschließen.
+Wie bereits im letzten Projektbericht erwähnt, waren unsere Erfahrungen im Physical Computing zu Anfang eher begrenzt. Joel hatte in dem Bereich noch keine Erfahrungen und Lasse hat bisher nur LED-Lichtmuster programmiert. Folglich mussten wir uns, wie viele andere des Kurses auch, dieses Themenfeld erst einmal selbst erschließen.
 
 ### Die Ideenfindung  
 Als Inspiration für das Projekt "Watch Out!" nahmen wir auch dieses Mal wieder ein Spiel, welches wir beide oft gemeinsam in unserer Freizeit spielen. In diesem Spiel gibt es verschiedene Gadgets, welche dem Spieler zur Verfügung stehen. Eines davon ist der "Herzschlagsensor". Dieser erkennt den Herzschlag anderer Spieler in der Nähe und gibt die Richtung, sowie die Entfernung zu diesem an. Dieses Gadget konnten wir aufgrund unserer technischen Möglichkeiten leider nicht nachbauen. Deshalb entschieden wir uns dafür, ein Gerät zu programmieren, welches bewegte Objekte in der Nähe erkennt und anschließend die Entfernung misst. Außerdem wollten wir ein Display so programmieren, dass dort die gemessene Entfernung angezeigt werden soll.  
