@@ -35,15 +35,15 @@ Außerdem verwendeten wir [Tinkercad](https://www.tinkercad.com/), um unseren Au
 ## Das Projekt  
 
 ### Was ist "Watch Out!"?  
-Unser Projekt "Watch Out!" ist ein Überwachungssystem, welches sich aktiviert, sobald eine Bewegung in der nahen Umgebung erkannt wird. Dadurch wird ein Entfernungsmesser angeschaltet, welcher anschließend die Enfernung misst. Währenddessen wird der Benutzer über drei verschiedene Ausgabegeräte über eine sich nähernde "Gefahr" informiert. Diese sind ein Liquid Crystal Display, ein Active Buzzer und eine RGB-LED.  
-Bis zur letzten Iformatikstunde war unser Überwachungssystem noch direkt mobil einsetzbar. In dieser Stunde ist leider die Batteriebox in Brand geraten, sodass wir nun keine externe Stromquelle mehr haben.  
+Unser Projekt "Watch Out!" ist ein Überwachungssystem, welches sich aktiviert, sobald eine Bewegung in der nahen Umgebung erkannt wird. Dadurch wird ein Entfernungsmesser angeschaltet, welcher anschließend die Entfernung misst. Währenddessen wird der Benutzer über drei verschiedene Ausgabegeräte über eine sich nähernde "Gefahr" informiert. Diese sind ein Liquid Crystal Display, ein Active Buzzer und eine RGB-LED.  
+Bis zur letzten Informatikstunde war unser Überwachungssystem noch direkt mobil einsetzbar. In dieser Stunde ist leider die Batteriebox in Brand geraten, sodass wir nun keine externe Stromquelle mehr haben.  
 Der optimale Einsatzbereich von "Watch Out!" ist die Überwachung von Eingängen zu Räumen oder Häusern.  
 
 ### Bestandteile des Projektes  
 
-Die Basis unseres Projkektes ist logischerweise der Arduino UNO selbst.  
-An diesem haben wir ersteinmal einen Motion Sensor angeschlossen. Dieser hat für unser Projekt die wichtigste Funktion, da er die Entfernungsmessung des Ultrasonic Sensors erst aktiviert.  
-Der Sensor ist an Pin 8 Arduino angeschlossen. Diesen mussten wir als "Input" definieren, da der Arduino über diesen Pin Informationen über erkannte Bewegungen erhält. Wir legten eine Variable "pirStat" fest. Diese liest die, über Pin 8 ankommenden, Werte des Motion Sensors aus. Wird eine Bewegung erkannt, dann wird "pirStat" auf "HIGH" gesetzt. Ist dies der Fall, dann wird der Rest unserer Schaltung in den Modus versetzt, in dem eine "Gefahr"/Bewegung erkannt ist und die Entfernung zu dieser gemessen werden muss. Andernfalls ist die Schaltung im Ruhemodus/sicheren Modus. Im Folgenden sind die Codezeilen, welche den Motion-Sensor bereffen, nachzulesen. 
+Die Basis unseres Projektes ist logischerweise der Arduino UNO selbst.  
+An diesem haben wir erst einmal einen Motion Sensor angeschlossen. Dieser hat für unser Projekt die wichtigste Funktion, da er die Entfernungsmessung des Ultrasonic Sensors erst aktiviert.  
+Der Sensor ist an Pin 8 Arduino angeschlossen. Diesen mussten wir als "Input" definieren, da der Arduino über diesen Pin Informationen über erkannte Bewegungen erhält. Wir legten eine Variable "pirStat" fest. Diese liest die, über Pin 8 ankommenden, Werte des Motion Sensors aus. Wird eine Bewegung erkannt, dann wird "pirStat" auf "HIGH" gesetzt. Ist dies der Fall, dann wird der Rest unserer Schaltung in den Modus versetzt, in dem eine "Gefahr"/Bewegung erkannt ist und die Entfernung zu dieser gemessen werden muss. Andernfalls ist die Schaltung im Ruhemodus/sicheren Modus. Im Folgenden sind die Codezeilen, welche den Motion-Sensor betreffen, nachzulesen. 
 
 ```C  
    int pirPin = 8;  
