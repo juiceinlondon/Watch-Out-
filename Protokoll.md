@@ -28,20 +28,6 @@ Da das Problem nun aus der Welt geschafft war, programmierten wir anschließend 
 ## 08.02.2023
 Heute hatten wir unsere neuen, bestellten Bauteile zur Verfügung. Da wir aufgrund unser vielen Geräte eine große Anzahl an Kabeln verbauen mussten, enstand auf unsere bisherigen Steckplatte ein großes Durcheinander. Deshalb begannen wir damit, jedes Gerät auf eine eigene neue Steckplatte zu bauen. Somit ist es möglich eine größere Ordung zu erzeugen und die verschiedenen Kabel zu sortieren und zu trennen. Um unseren Fortschritt nicht zu verlieren, fotografierten wird unsere Schaltung zum Zeitpunkt vor dem Umstecken. Anschließend nutzten wir diese Fotos um die Anschlüsse wieder richtig aufzubauen.
 
-schaltplan LCD:
-1 e30
-2 d14
-3 b21 
-4 anschluss 0 
-5 e26
-6 anschluss 1
-11 anschluss 6
-12 anschluss 9
-13 anschluss 10
-14 anschluss 11
-15 h14
-16 e23
-
 ## 10.02.2023
 In dieser Stunde bemerkten wir, dass das LCD erneut ein Problem hat. Dieses musste durch das Umstecken in der letzten Stunde entstanden sein. Also begannen wir damit, jedes einzelne Kabel mithilfe unserer gemachten Fotos zu kontrollieren. Jedoch war jedes Kabel von jedem Gerät an der selben Position wie vorher.  
 Wir schauten deshalb erneut auf die [Seite](https://docs.arduino.cc/learn/electronics/lcd-displays), auf der wir vor 3 Wochen den Steckplan des LCDs fanden. Auf diesem Plan verfügt das LCD über einen dritten 5V-Anschluss. Diesen Anschluss haben wir jedoch nie benötigt, da hier ein Potentiometer vor das Display geschaltet war, welchen wir von Anfang an nicht verbaut haben. Allerdings war er nach dem Umstecken bei uns trotzdem vorhanden. Diesen Einbau des falschen Kabels führten wir darauf zurück, dass wir in der letzten Stunde, während des Umsteckens, ebenfalls auf diese Seite zurückgreifen mussten, da einige Anschlüsse des LCDs auf unseren Fotos von Kabeln verdeckt waren. Nachdem wir diesen 5V-Anschluss entfernten, funktionierte das Display wieder richtig.  
