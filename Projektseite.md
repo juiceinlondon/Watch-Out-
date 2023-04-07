@@ -42,8 +42,31 @@ Der optimale Einsatzbereich von "Watch Out!" ist die Überwachung von Eingängen
 ### Bestandteile des Projektes  
 
 Die Basis unseres Projkektes ist logischerweise der Arduino UNO selbst.  
-An diesem haben wir ersteinmal einen Motion Sensor angeschlossen. Dieser hat für unser Projekt die wichtigste Funktion, da er die restlichen Bauteile erst aktiviert. Der Sensor ist an Pin 8 Arduino angeschlossen. Über diesen Pin erhält der Arduino Informationen über erkannte Beegungen. Wir legten eine Variable "pirStat" fest. Diese liest die, über Pin 8 ankommenden, Werte des Motion Sensors aus. Wird eine Bewegung erkannt, dann wird "pirStat" auf "HIGH" gesetzt. Ist dies der Fall, dann wird r Rest unserer Schaltung aktiviert und führt eine von zwei programmierten Aufgaben aus. 
+An diesem haben wir ersteinmal einen Motion Sensor angeschlossen. Dieser hat für unser Projekt die wichtigste Funktion, da er die Entfernungsmessung des Ultrasonic Sensors erst aktiviert.  
+Der Sensor ist an Pin 8 Arduino angeschlossen. Diesen mussten wir als "Input" definieren, da der Arduino über diesen Pin Informationen über erkannte Bewegungen erhält. Wir legten eine Variable "pirStat" fest. Diese liest die, über Pin 8 ankommenden, Werte des Motion Sensors aus. Wird eine Bewegung erkannt, dann wird "pirStat" auf "HIGH" gesetzt. Ist dies der Fall, dann wird der Rest unserer Schaltung in den Modus versetzt, in dem eine "Gefahr"/Bewegung erkannt ist und die Entfernung zu dieser gemessen werden muss. Andernfalls ist die Schaltung im Ruhemodus/sicheren Modus. Im Folgenden sind die Codezeilen, welche den Motion-Sensor bereffen, nachzulesen. 
 
+```  
+   int pirPin = 8;  
+   int pirStat = 0;  
+   
+   void setup ()  
+   {  
+   pinMode(pirPin, INPUT);   
+   }   
+   
+   void loop()  
+   {  
+   pirStat = digitalRead(pirPin);   
+    if(pirStat == HIGH)     
+    {
+    ...
+    } 
+   else
+    {
+    ...
+    }
+   }
+``` 
 
 
 ## Eigene abschließende Bewertung 
