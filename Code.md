@@ -30,8 +30,8 @@ void setup ()
   
  void loop()  
  {  
-  pirStat = digitalRead(pirPin);   
-  if(pirStat == HIGH)   
+    pirStat = digitalRead(pirPin);   
+    if(pirStat == HIGH)   
   {  
     digitalWrite(ledPinBlue, HIGH);  
     digitalWrite(buzzerPin, HIGH);  
