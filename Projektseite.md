@@ -72,9 +72,11 @@ Außerdem erzeugt der Active Buzzer bei einer Bewegung ein akustisches Signal un
 ```C
 int ledPinBlue = 2;  
 int buzzerPin = 3; 
-
+int pirPin = 8;  
+int pirStat = 0;  
 void setup ()  
    {  
+     pinMode(pirPin, INPUT);  
      pinMode(2, OUTPUT);  
      pinMode (buzzerPin, OUTPUT);  
    }  
@@ -93,7 +95,7 @@ void setup ()
     }
    } 
 ```  
-
+Zudem nimmt der Ultrasonic Sensor seine Arbeit auf. Dieser funktioniert über die Aussendung von Schallwellen und das Messen der Zeit, welche die Wellen benötigen, um zurück zum Sensor zu gelangen. Der Sensor ist an Pin 12 und 7 angeschlossen, wobei über Pin 12 die Wellen ausgesendt werden und über Pin 7 aufgenommen werden. Dafür legten wir die Konstanten "trigPin" für Pin 12 und "echoPin" für Pin 7 fest. 
 
 ## Eigene abschließende Bewertung 
 
