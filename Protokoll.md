@@ -80,12 +80,12 @@ Heute haben wir überlegt, ob wir unseren Aufbau noch durch weitere Geräte erg�
 Danach hatten wir die Idee, ein [Membrane Keypad](https://randomnerdtutorials.com/arduino-membrane-keypad-tutorial/) einzubauen. Gibt der Benutzer hier einen bestimmten Code ein, dann soll sich unser Aufbau aktivieren. Leider hatten wir nicht mehr genügend freie Anschlüsse auf dem Arduino, welche für den Betrieb nötig sind. Folglich verwarfen wir auch diese Idee.
 
 ## 24.03.2023
-Zum Anfang dieser Stunde wollten wir unsere Grundidee aus der letzten Stunde weiterführen. Statt einem Keypad wollten wir einen Schalter einbauen. Wird dieser umgelegt, dann aktiviert sich der Motion Sensor. Hier trat allerdings das Problem auf, dass der Schalter bei der Deaktivierung lediglich das Display aktivierte und bei Aktivierung deaktivierte. Da wird nach längerem Probieren keine Lösung fanden und unseren gut funktionierenden Sketch nicht durcheinander bringen wollten, ließen wir auch von dieser Idee ab.
-Den Rest der Stunde haben wir an Github weiter gearbeitet.
+Zum Anfang dieser Stunde wollten wir unsere Grundidee aus der letzten Stunde weiterführen. Statt einem Keypad wollten wir einen Schalter einbauen. Wird dieser umgelegt, dann aktiviert sich der Motion Sensor. Hier trat allerdings das Problem auf, dass der Schalter bei der Deaktivierung lediglich das Display aktivierte und bei Aktivierung deaktivierte. Da wird nach längerem Probieren keine Lösung fanden und unseren gut funktionierenden Sketch nicht durcheinanderbringen wollten, ließen wir auch von dieser Idee ab.
+Den Rest der Stunde haben wir an Github weitergearbeitet.
 
 ## 31.03.2023
 Heute waren die letzten Informatikstunden für dieses Halbjahr. Deshalb haben wir heute unseren Sketch noch einmal getestet. Dabei ist uns leider die Batteriebox durchgebrannt. Nachdem wir eine Batterie eingesetzt haben, hat sich an der Unterseite der Batteriebox direkt eine Stichflamme gebildet. Sofort haben wir die Batterie entfernt und die Flamme gelöscht. Leider ist unser Überwachungssystem nun nicht mehr mobil einsetzbar, da die betroffenen Teile nicht länger benutzbar sind.  
-Am Sketch selbst traten keine Fehler auf, sodass wir ihn in den Gruppenordner auf Iserv hochladen konnten. Zudem haben wir unseren nun finalen Aufbau digital in Tinkercad nachgebaut. Im folgenden Screenshot ist unser Endprodukt zu sehen.  
+Am Sketch selbst traten keine Fehler auf, sodass wir ihn in den Gruppenordner auf Isurf hochladen konnten. Zudem haben wir unseren nun finalen Aufbau digital in Tinkercad nachgebaut. Im folgenden Screenshot ist unser Endprodukt zu sehen.  
 Nun musste lediglich noch die Projektseite fertiggestellt werden.  
 
 ![Glorious Borwo-Duup](https://user-images.githubusercontent.com/111385267/229095857-246795b1-63eb-4af6-a477-c1b4e36be633.png)
