@@ -59,7 +59,7 @@ Heute sind Joel und ich beide krank gewesen.
 Heute sind Joel und ich beide krank gewesen.
 
 ## 01.03.2023
-In dieser Stunde war Joel krank. Wie wir im Vorfeld bescprochen haben, recherchierte ich heute über die Funktion von Servomotoren. Diesen benötigen wir für unsere Idee des rotierenden Ultrasonic Sensors, welcher so als Radar fungieren soll. Dazu schaute ich mir bereits vorhandene Projekte an, welche ebenfalls ein Radar enthielten. Zum Ende der Stunde begann ich damit, mit dem Programm ["Tinkercad"](https://www.tinkercad.com/) zu arbeiten. Dieses Programm ermöglicht es uns, unsere Schaltung digital nachzubauen. Da ich allerdings selbst noch nicht wieder ganz gesund war, konnte ich dieses Vorhaben nicht in der Stunde abschließen.  
+In dieser Stunde war Joel krank. Wie wir im Vorfeld besprochen haben, recherchierte ich heute über die Funktion von Servomotoren. Diesen benötigen wir für unsere Idee des rotierenden Ultrasonic Sensors, welcher so als Radar fungieren soll. Dazu schaute ich mir bereits vorhandene Projekte an, welche ebenfalls ein Radar enthielten. Zum Ende der Stunde begann ich damit, mit dem Programm ["Tinkercad"](https://www.tinkercad.com/) zu arbeiten. Dieses Programm ermöglicht es uns, unsere Schaltung digital nachzubauen. Da ich allerdings selbst noch nicht wieder ganz gesund war, konnte ich dieses Vorhaben nicht in der Stunde abschließen.  
 
 ## 03.03.2023
 Diese Doppelstunde fand im Homeschooling statt. Um meine Arbeit an Tinkercad zu vollenden, nahm ich unser Projekt mit nach Hause. Schlussendlich sah unser Schaltplan, digital übertragen, wie folgt aus: ![Plan](https://user-images.githubusercontent.com/111385267/225247385-37b29fbc-df0d-4f87-98e4-60150b2d79e1.png)
