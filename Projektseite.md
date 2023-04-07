@@ -28,15 +28,23 @@ Wie bereits im letzten Projektbericht erwähnt, waren unsere Erfahrungen im Phys
 Als Inspiration für das Projekt "Watch Out!" nahmen wir auch dieses Mal wieder ein Spiel, welches wir beide oft gemeinsam in unserer Freizeit spielen. In diesem Spiel gibt es verschiedene Gadgets, welche dem Spieler zur Verfügung stehen. Eines davon ist der "Herzschlagsensor". Dieser erkennt den Herzschlag anderer Spieler in der Nähe und gibt die Richtung, sowie die Entfernung zu diesem an. Dieses Gadget konnten wir aufgrund unserer technischen Möglichkeiten leider nicht nachbauen. Deshalb entschieden wir uns dafür, ein Gerät zu programmieren, welches bewegte Objekte in der Nähe erkennt und anschließend die Entfernung misst. Außerdem wollten wir ein Display so programmieren, dass dort die gemessene Entfernung angezeigt werden soll.  
 
 ### Benutzte Programme und Programmiersprachen  
-Das Programm, welches wir in den drei Monaten benutzt haben, war [Arduino IDE](https://downloads.arduino.cc/arduino-ide/arduino-ide_2.0.4_Windows_64bit.exe), da nur damit der Arduino programmiert werden kann. Die für den Arduino verwendete Programmiersprache ist C/C++, welche weit verbreitet ist.  
+Das Programm, welches wir in den drei Monaten benutzt haben, war [Arduino IDE](https://downloads.arduino.cc/arduino-ide/arduino-ide_2.0.4_Windows_64bit.exe), da nur damit der Arduino programmiert werden kann. Die für den Arduino verwendete Programmiersprache ist C/C++, welche weit verbreitet ist. In Arduino IDE kann der Benutzer verschiedene, sogenannte Sketches erstellen. Diese können über ein USB-Kabel einzeln auf den Arduino hochgeladen werden. So hat man die Möglichkeit, schnell die Funktionsweisen zu ändern und verschiedene Dinge auszuprobieren, ohne den Ursprungssketch verändern zu müssen. Zudem bleibt der Sketch auf dem Arduino vorhanden, wenn dieser vom Computer wieder entfernt wird. Mit einer externen Stromquelle kann der Arduino also mobil eingesetzt werden.  
 Außerdem verwendeten wir [Tinkercad](https://www.tinkercad.com/), um unseren Aufbau digital nachzubauen.
 
 
 ## Das Projekt  
 
 ### Was ist "Watch Out!"?  
+Unser Projekt "Watch Out!" ist ein Überwachungssystem, welches sich aktiviert, sobald eine Bewegung in der nahen Umgebung erkannt wird. Dadurch wird ein Entfernungsmesser angeschaltet, welcher anschließend die Enfernung misst. Währenddessen wird der Benutzer über drei verschiedene Ausgabegeräte über eine sich nähernde "Gefahr" informiert. Diese sind ein Liquid Crystal Display, ein Active Buzzer und eine RGB-LED.  
+Bis zur letzten Iformatikstunde war unser Überwachungssystem noch direkt mobil einsetzbar. In dieser Stunde ist leider die Batteriebox in Brand geraten, sodass wir nun keine externe Stromquelle mehr haben.  
+Der optimale Einsatzbereich von "Watch Out!" ist die Überwachung von Eingängen zu Räumen oder Häusern.  
 
-### Bestandteile des Projektes
+### Bestandteile des Projektes  
+
+Die Basis unseres Projkektes ist logischerweise der Arduino UNO selbst.  
+An diesem haben wir ersteinmal einen Motion Sensor angeschlossen. Dieser hat für unser Projekt die wichtigste Funktion, da er die restlichen Bauteile erst aktiviert. Der Sensor ist an Pin 8 Arduino angeschlossen. Über diesen Pin erhält der Arduino Informationen über erkannte Beegungen. Wir legten eine Variable "pirStat" fest. Diese liest die, über Pin 8 ankommenden, Werte des Motion Sensors aus. Wird eine Bewegung erkannt, dann wird "pirStat" auf "HIGH" gesetzt. Ist dies der Fall, dann wird r Rest unserer Schaltung aktiviert und führt eine von zwei programmierten Aufgaben aus. 
+
+
 
 ## Eigene abschließende Bewertung 
 
