@@ -49,15 +49,19 @@ Im folgenden Bild ist der falsche Anschluss, mit grüner Farbe umrandet, dargest
 
 
 ## 15.02.2023
-Heute war Joel krank. Da wir in den letzten Stunden immer wieder unrealistische Entfernung von dem Ultrasonic Sensor angezeigt bekommen haben, nahm ich einige Tests unseres Sensors vor. Um auszuschließen, dass ein technischer Defekt vorliegt, ließ ich ihn einige vorher festgelegte Strecken nachmessen. Dabei entsprach jede Messung der tatsächlichen Entfernung. Die falschen Entfernungen sind darauf zurückzuführen, dass der Sensor Ultraschallwellen aussendet, welche über längere Zeit durch den Raum reflektiert werden, und somit länger brauchen, um den Sensor wieder zu erreichen.
+Heute war Joel krank. Da wir in den letzten Stunden immer wieder unrealistische Entfernung von dem Ultrasonic Sensor angezeigt bekommen haben, nahm ich einige Tests unseres Sensors vor. Um auszuschließen, dass ein technischer Defekt vorliegt, ließ ich ihn einige vorher festgelegte Strecken nachmessen. Dabei entsprach jede Messung der tatsächlichen Entfernung. Die falschen Entfernungen sind darauf zurückzuführen, dass der Sensor Ultraschallwellen aussendet, welche über längere Zeit durch den Raum reflektiert werden, und somit länger brauchen, um den Sensor wieder zu erreichen.  
+Im Folgenden sind eine Tabelle über die tatsächliche und gemessene Entfernung, sowie Bilder aus dem Messprozess zu sehen.  
 ### Test der Messgenauigkeit des Entfernungsmessers
-| Entfernung | gemessene Entfernung|
+| tatsächliche Entfernung | gemessene Entfernung|
 | -------------------------- |-----------|
 | 20 |20|
 | 35 |35|
 | 40 |40|
 | 55 |55|
 | 80 |80|
+![20230215_090414](https://user-images.githubusercontent.com/111385267/230569351-642126fa-08b7-4bb2-8e5c-f32fdc243a71.jpg)  
+![20230215_090432](https://user-images.githubusercontent.com/111385267/230569362-3d21a704-1750-468c-adf2-bb14643a1baf.jpg)  
+
 
 ## 22.02.2023 
 Heute sind Joel und ich beide krank gewesen.
