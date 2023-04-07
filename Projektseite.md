@@ -86,6 +86,11 @@ void setup ()
     digitalWrite(ledPinBlue, HIGH); 
     digitalWrite(buzzerPin, HIGH); 
     } 
+    else
+    {
+    digitalWrite(ledPinBlue, LOW);  
+    digitalWrite(buzzerPin, LOW);  
+    }
    } 
 ```  
 
