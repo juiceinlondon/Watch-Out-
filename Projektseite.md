@@ -98,9 +98,59 @@ void setup ()
 Zudem nimmt der Ultrasonic Sensor seine Arbeit auf. Dieser funktioniert über die Aussendung von Schallwellen und das Messen der Zeit, welche die Wellen benötigen, um zurück zum Sensor zu gelangen. Der Sensor ist an Pin 12 und 7 angeschlossen, wobei der Arduino über Pin 12 die Signale zum Aussenden der Wellen gibt und über Pin 7 die Informationen über die Dauer aufnimmt. Dafür legten wir die Konstanten "trigPin" für Pin 12 (Output) und "echoPin" für Pin 7 (INPUT) fest.  
 Wird eine Bewegung erkannt, dann wird "trigPin" auf "HIGH" geschaltet, sodass Wellen ausgesendet werden. Nach einem kurzen Delay von 10 Microsekunden wird die Konstante wieder auf "LOW" gesetzt. 
 Nun muss die Entfernung zur Bewegung ermittelt werden. Dazu legten wir zwei Variabeln fest:"distance" und "duration". Die Zeit wird durch "pulseIn" angegeben. Diese Komponente misst die Dauer, zwischen dem Aussenden und Empfangen der Wellen. Die Entfernung wird schließlisch durch diese Formel berechnet:   
-``` 
+```C
 distance = duration * 0.034 / 2;  
 ``` 
-Die Formel erhielten wir durch die Seite [Funduino](https://funduino.de/nr-10-entfernung-messen). Hier wird die Zeit mit der Schallgeschwindigkeit in Zentimeter pro Mikrosekunde multipliziert und durch 2 dividiert, da man nicht die insgesamt zurückgelegte Strecke der Wellen berechnen möchte, sondern nur den Hinweg.  
+Die Formel erhielten wir durch die Seite [Funduino](https://funduino.de/nr-10-entfernung-messen). Hier wird die Zeit mit der Schallgeschwindigkeit in Zentimeter pro Mikrosekunde multipliziert und durch 2 dividiert, da man nicht die insgesamt zurückgelegte Strecke der Wellen berechnen möchte, sondern nur den Hinweg. Das Ganze wird  mit einem Delay von 600 Millisekunden durchgeführt, um nicht zu schnell zu viele Werte zu erhalten. Im Folgenden ist nun der Code vom Ultrasonic Sensor in Verbindung mit LED, Buzzer und Motion Sensor zu sehen.
+
+```C   
+  int buzzerPin = 3;  
+  int ledPinBlue = 2;  
+  int pirPin = 8;  
+  int pirStat = 0;  
+  int distance;  
+  const int trigPin = 12;  
+  const int echoPin = 7;  
+  long duration;  
+  
+  void setup ()  
+ {
+  pinMode (buzzerPin, OUTPUT);  
+  pinMode(trigPin, OUTPUT);   
+  pinMode(echoPin, INPUT);  
+  pinMode(2, OUTPUT);  
+  pinMode(pirPin, INPUT); 
+ }  
+ 
+ void loop()  
+ { 
+ 
+    pirStat = digitalRead(pirPin);   
+    if(pirStat == HIGH)   
+  {  
+    
+    digitalWrite(ledPinBlue, HIGH);  
+    digitalWrite(buzzerPin, HIGH);  
+    digitalWrite(trigPin, HIGH);  
+    delayMicroseconds(10);  
+    digitalWrite(trigPin, LOW);  
+
+    duration = pulseIn(echoPin, HIGH);   
+    distance = duration * 0.034 / 2;   
+    
+    delay(600);  
+  }  
+  
+  else   
+  {  
+    ++
+    digitalWrite(ledPinBlue, LOW);  
+    digitalWrite(buzzerPin, LOW);  
+   
+    delay(600);  
+  }  
+ }  
+``` 
+
 ## Eigene abschließende Bewertung 
 
