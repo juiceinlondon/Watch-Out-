@@ -2,7 +2,7 @@
 | Stunde 1-10| Stunde 11-20|
 | -------------------------- |-----------|
 | [1. Stunde](https://github.com/juiceinlondon/Watch-Out-/blob/main/Protokoll.md#11012023)|[12. Stunde]|
-| [2. Stunde]|[13. Stunde]|
+| [2. Stunde](https://github.com/juiceinlondon/Watch-Out-/blob/main/Protokoll.md#17012023)|[13. Stunde]|
 | [3. Stunde]|[14. Stunde]|
 | [4. Stunde]|[15. Stunde]|
 | [5. Stunde]|[16. Stunde]|
