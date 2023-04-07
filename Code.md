@@ -29,8 +29,8 @@ void setup ()
  }  
   
  void loop()  
- {  
-    
+ { 
+ 
     pirStat = digitalRead(pirPin);   
     if(pirStat == HIGH)   
   {  
