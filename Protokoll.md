@@ -61,8 +61,9 @@ Im Folgenden sind eine Tabelle über die tatsächliche und gemessene Entfernung,
 | 80 |80|  
 
 
-![20230215_090414](https://user-images.githubusercontent.com/111385267/230569351-642126fa-08b7-4bb2-8e5c-f32fdc243a71.jpg)  
-![20230215_090432](https://user-images.githubusercontent.com/111385267/230569362-3d21a704-1750-468c-adf2-bb14643a1baf.jpg)  
+![20230215_090414](https://user-images.githubusercontent.com/111385267/230570276-0a8f7017-51b9-4b06-a29f-c4b9eb477b5b.jpg)
+![20230215_090432](https://user-images.githubusercontent.com/111385267/230570280-f51c736a-6dd1-4611-ab67-daaab77fa6f8.jpg)
+
 
 
 ## 22.02.2023 
