@@ -67,13 +67,16 @@ Der Sensor ist an Pin 8 Arduino angeschlossen. Diesen mussten wir als "Input" de
     }
    }
 ```  
-Wird nun eine Bewegung erkannt, dann wird zunächst unsere RGB-LED angeschaltet. Diese leuchtet blau auf und ist am Arduino an Pin 2 angeschlossen, welcher folglich als "Output" definiert werden musste.  
+Wird nun eine Bewegung erkannt, dann wird zunächst unsere RGB-LED angeschaltet. Diese leuchtet blau auf und ist am Arduino an Pin 2 angeschlossen, welcher folglich als "Output" definiert werden musste. Wird keine Bewegung erkannt, dann bleibt die LED ausgeschaltet.  
+Außerdem erzeugt der Active Buzzer bei einer Bewegung ein akustisches Signal und bleibt ansonsten ebenfalls ausgeschaltet. Der Buzzer ist an Pin 3 angeschlossen.    
 ```  
 int ledPinBlue = 2;  
+int buzzerPin = 3; 
 
 void setup ()  
    {  
-      pinMode(2, OUTPUT);  
+     pinMode(2, OUTPUT);  
+     pinMode (buzzerPin, OUTPUT);  
    }  
    void loop()  
    {  
@@ -81,6 +84,7 @@ void setup ()
     if(pirStat == HIGH)     
     {
     digitalWrite(ledPinBlue, HIGH); 
+    digitalWrite(buzzerPin, HIGH); 
     } 
    } 
 ```  
