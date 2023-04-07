@@ -156,6 +156,76 @@ Im Falle einer erkannten Bewegung wird der Cursor des Displays in die obere link
 Wird hingegen keine Bewegung erkannt, dann steht in der oberen Zeile "Keine Gefahr" und in der unteren Zeile "erkannt!".  
 ![20230407_125526](https://user-images.githubusercontent.com/111385267/230597620-06129828-ccb7-4794-af4f-beffc81164ee.jpg)
 
-Im Folgenden ist nun der vollständige Code, der digitale Schaltplan und ein Video unseres Endproduktes zu sehen.
+Im Folgenden ist nun der vollständige Code, der digitale Schaltplan und ein Video unseres Endproduktes zu sehen. 
+``` 
+#include <LiquidCrystal.h>  
+   
+  int buzzerPin = 3;  
+  int ledPinBlue = 2;  
+  int pirPin = 8;  
+  int pirStat = 0;  
+  int distance;  
+  const int trigPin = 12;  
+  const int echoPin = 7;  
+  const int rs = 0, en = 1, d4 = 6, d5 = 9, d6 = 10, d7 = 11;  
+  LiquidCrystal lcd(rs, en, d4, d5, d6, d7);  
+  long duration;  
+  
+ 
+   
+void setup ()  
+ {  
+  lcd.begin(16, 2);  
+
+  pinMode (buzzerPin, OUTPUT);  
+  pinMode(trigPin, OUTPUT);   
+  pinMode(echoPin, INPUT);  
+  pinMode(2, OUTPUT);  
+  pinMode(pirPin, INPUT);   
+ }  
+  
+ void loop()  
+ { 
+ 
+    pirStat = digitalRead(pirPin);   
+    if(pirStat == HIGH)   
+  {  
+    
+    digitalWrite(ledPinBlue, HIGH);  
+    digitalWrite(buzzerPin, HIGH);  
+    digitalWrite(trigPin, HIGH);  
+    delayMicroseconds(10);  
+    digitalWrite(trigPin, LOW);  
+
+    duration = pulseIn(echoPin, HIGH);   
+    distance = duration * 0.034 / 2;   
+
+    lcd.clear();  
+    lcd.setCursor(0, 0);   
+    lcd.print("Abstand: ");  
+    lcd.setCursor(0, 1);   
+    lcd.print(distance);  
+    lcd.print(" cm");  
+
+    delay(600);  
+  }  
+  
+  else   
+  {  
+    
+    digitalWrite(ledPinBlue, LOW);  
+    digitalWrite(buzzerPin, LOW);  
+    
+    lcd.clear();  
+    lcd.setCursor(0, 0);   
+    lcd.print("Keine Gefahr");  
+    lcd.setCursor(0, 1);  
+    lcd.print("erkannt!");  
+   
+    delay(600);  
+  }  
+ }  
+```  
+
 ## Eigene abschließende Bewertung 
 
