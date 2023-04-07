@@ -95,7 +95,12 @@ void setup ()
     }
    } 
 ```  
-Zudem nimmt der Ultrasonic Sensor seine Arbeit auf. Dieser funktioniert über die Aussendung von Schallwellen und das Messen der Zeit, welche die Wellen benötigen, um zurück zum Sensor zu gelangen. Der Sensor ist an Pin 12 und 7 angeschlossen, wobei über Pin 12 die Wellen ausgesendt werden und über Pin 7 aufgenommen werden. Dafür legten wir die Konstanten "trigPin" für Pin 12 und "echoPin" für Pin 7 fest. 
-
+Zudem nimmt der Ultrasonic Sensor seine Arbeit auf. Dieser funktioniert über die Aussendung von Schallwellen und das Messen der Zeit, welche die Wellen benötigen, um zurück zum Sensor zu gelangen. Der Sensor ist an Pin 12 und 7 angeschlossen, wobei der Arduino über Pin 12 die Signale zum Aussenden der Wellen gibt und über Pin 7 die Informationen über die Dauer aufnimmt. Dafür legten wir die Konstanten "trigPin" für Pin 12 (Output) und "echoPin" für Pin 7 (INPUT) fest.  
+Wird eine Bewegung erkannt, dann wird "trigPin" auf "HIGH" geschaltet, sodass Wellen ausgesendet werden. Nach einem kurzen Delay von 10 Microsekunden wird die Konstante wieder auf "LOW" gesetzt. 
+Nun muss die Entfernung zur Bewegung ermittelt werden. Dazu legten wir zwei Variabeln fest:"distance" und "duration". Die Zeit wird durch "pulseIn" angegeben. Diese Komponente misst die Dauer, zwischen dem Aussenden und Empfangen der Wellen. Die Entfernung wird schließlisch durch diese Formel berechnet:   
+``` 
+distance = duration * 0.034 / 2;  
+``` 
+Die Formel erhielten wir durch die Seite [Funduino](https://funduino.de/nr-10-entfernung-messen). Hier wird die Zeit mit der Schallgeschwindigkeit in Zentimeter pro Mikrosekunde multipliziert und durch 2 dividiert, da man nicht die insgesamt zurückgelegte Strecke der Wellen berechnen möchte, sondern nur den Hinweg.  
 ## Eigene abschließende Bewertung 
 
