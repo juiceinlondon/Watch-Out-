@@ -58,7 +58,9 @@ Im Folgenden sind eine Tabelle über die tatsächliche und gemessene Entfernung,
 | 35 |35|
 | 40 |40|
 | 55 |55|
-| 80 |80|
+| 80 |80|  
+
+
 ![20230215_090414](https://user-images.githubusercontent.com/111385267/230569351-642126fa-08b7-4bb2-8e5c-f32fdc243a71.jpg)  
 ![20230215_090432](https://user-images.githubusercontent.com/111385267/230569362-3d21a704-1750-468c-adf2-bb14643a1baf.jpg)  
 
