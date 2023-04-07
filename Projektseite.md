@@ -143,7 +143,6 @@ Die Formel erhielten wir durch die Seite [Funduino](https://funduino.de/nr-10-en
   
   else   
   {  
-    ++
     digitalWrite(ledPinBlue, LOW);  
     digitalWrite(buzzerPin, LOW);  
    
@@ -151,6 +150,8 @@ Die Formel erhielten wir durch die Seite [Funduino](https://funduino.de/nr-10-en
   }  
  }  
 ``` 
+Das letzte Bauteil ist das Liquid Crystal Display. Dies zeigt, wenn eine Bewegung erkannt wird, die errechnete Entfernung in Zentimetern an. Andernfalls ist auf ihm ""Keine Gefahr erkannt!" zu lesen (siehe Bild ).
+![20230407_125526](https://user-images.githubusercontent.com/111385267/230597620-06129828-ccb7-4794-af4f-beffc81164ee.jpg)
 
 ## Eigene abschließende Bewertung 
 
