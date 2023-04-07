@@ -234,4 +234,6 @@ https://user-images.githubusercontent.com/111385267/230602756-bf60fb6e-8ea2-425f
 
 
 ## Eigene abschließende Bewertung 
-
+Zusammenfassend sind wir beide der Meinung, dass uns die Arbeit mit dem Arduino sehr gut gelungen ist, trotz dessen, dass wir beide leider wieder oft krank waren. Zudem hat uns dieses Projekt nochmal deutlich mehr Spaß gemacht, als das vorherige. Der wesentliche Vorteil am Physical Computing ist aus unserer Sicht, dass man die programmierten Sketche nicht bloß in 2D auf dem Computer sieht, sondern die Resultate in 3D direkt vor sich stehen hat und anfassen kann. Dadurch ergaben sich für uns auch viel mehr Möglichkeiten im Bezug auf die Kreativität, da man nicht so stark durch die Gegebenheiten eines Programmes wie Greenfoot eingeschränkt war.  
+Auch in diesem Halbjahr konnten wir unsere Fähigkeiten und unser Wissen im Bereich des Programmierens nochmal weiter fördern und ausbauen. Außerdem konnten wir auch in diesem Projekt wieder unsere außerschulischen Interessen einbringen, wodurch wir stets motiviert weitergearbeitet haben und uns immer auf den Informatikunterricht gefreut haben. Gerne hätten wir diesen schon in der zehnten und elften Klasse gehabt, da er immer wieder eine willkommene Abwechslung zum restlichen Schultag geboten hat.  
+Was uns nun im Nachhinein aufgefallen ist, ist, dass in unserem auf Isurf hochgeladenen Sketch immernoch Elemente vorhanden sind, welche im Laufe des Arbeitsprozesses eigentlich hätten entfernt werden sollen, da sie für unser Endprodukt keine Rolle mehr spielen. 
