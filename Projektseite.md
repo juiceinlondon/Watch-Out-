@@ -66,7 +66,24 @@ Der Sensor ist an Pin 8 Arduino angeschlossen. Diesen mussten wir als "Input" de
     ...
     }
    }
-``` 
+```  
+Wird nun eine Bewegung erkannt, dann wird zunächst unsere RGB-LED angeschaltet. Diese leuchtet blau auf und ist am Arduino an Pin 2 angeschlossen, welcher folglich als "Output" definiert werden musste.  
+```  
+int ledPinBlue = 2;  
+
+void setup ()  
+   {  
+      pinMode(2, OUTPUT);  
+   }  
+   void loop()  
+   {  
+   pirStat = digitalRead(pirPin);   
+    if(pirStat == HIGH)     
+    {
+    digitalWrite(ledPinBlue, HIGH); 
+    } 
+   } 
+```  
 
 
 ## Eigene abschließende Bewertung 
