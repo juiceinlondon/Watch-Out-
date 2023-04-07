@@ -150,7 +150,10 @@ Die Formel erhielten wir durch die Seite [Funduino](https://funduino.de/nr-10-en
   }  
  }  
 ``` 
-Das letzte Bauteil ist das Liquid Crystal Display. Dies zeigt, wenn eine Bewegung erkannt wird, die errechnete Entfernung in Zentimetern an. Andernfalls ist auf ihm ""Keine Gefahr erkannt!" zu lesen.
+Das letzte Bauteil ist das Liquid Crystal Display. Es ist das einzige Bauteil, neben dem Motion Sensor, welches dauerhaft aktiviert ist.
+Um das Display zu verwenden mussten wir zunächst die Funktion "LiquidCrystal.h" aus der Bibliothek einfügen. Außerdem mussten wir die Anschlüsse des Diplays an den Arduino als Konstanten definieren. Wird der Arduino angeschaltet, dann wird das Display zunächst im Setup angeschaltet.  
+Im Falle einer erkannten Bewegung wird der Cursor des Displays in die obere linke Ecke gesetzt. In der oberen Zeile wird dann "Abstand:" angezeigt. Anschließend wird der Cursor in die untere linke Ecke gesetzt. Dort wird die berechnete Entfernung angezeigt. Hinter der Entfernung wir außerdem die Einheit Zentimeter angegeben.  
+Wird hingegen keine Bewegung erkannt, dann steht in der oberen Zeile "Keine Gefahr" und in der unteren Zeile "erkannt!".  
 ![20230407_125526](https://user-images.githubusercontent.com/111385267/230597620-06129828-ccb7-4794-af4f-beffc81164ee.jpg)
 
 ## Eigene abschließende Bewertung 
